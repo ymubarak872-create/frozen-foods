@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FrozenHub - Premium Frozen Foods</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header>
+
+    <div class="logo">
+        Christoes<span>Global Ltd</span>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+            Christoes Frozen <span>Foods</span>
+        </h1>
+
+        <p>
+            Chicken Lap, Chicken Wings, Turkey Gizzard, Ice Block and more delivered fresh daily.
+        </p>
+
+        <button class="hero-btn" onclick="goProducts()">
+            Explore Products
+        </button>
+
+    </div>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section class="products" id="products">
+
+    <div class="section-title fade-up">
+        <h2>Our Products</h2>
+        <p>Quality frozen foods available for wholesale and retail</p>
+    </div>
+
+    <div class="product-grid">
+
+        <!-- PRODUCT 1 -->
+
+        <div class="card fade-up">
+
+            <img src="IMG_3799.JPG">
+
+            <div class="card-content">
+
+                <h3>Chicken Lap</h3>
+
+                <p>
+                    Fresh premium frozen chicken laps available daily.
+                </p>
+
+                <div class="price">₦6,200</div>
+
+                <button class="order-btn"
+                onclick="orderNow('Chicken Lap')">
+                    Order On WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 2 -->
+
+        <div class="card fade-up">
+
+            <img src="IMG_3801 - Copy.JPG">
+
+            <div class="card-content">
+
+                <h3>Chicken Gizzard</h3>
+
+                <p>
+                    Clean and tasty chicken gizzard with quality preservation.
+                </p>
+
+                <div class="price">₦5,500</div>
+
+                <button class="order-btn"
+                onclick="orderNow('Chicken Gizzard')">
+                    Order On WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 3 -->
+
+        <div class="card fade-up">
+
+            <img src="IMG_3802 - Copy.JPG">
+
+            <div class="card-content">
+
+                <h3>Turkey Gizzard</h3>
+
+                <p>
+                    Properly frozen turkey gizzard with rich taste and freshness.
+                </p>
+
+                <div class="price">₦8,000</div>
+
+                <button class="order-btn"
+                onclick="orderNow('Turkey Gizzard')">
+                    Order On WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 4 -->
+
+        <div class="card fade-up">
+
+            <img src="IMG_3803 - Copy.JPG">
+
+            <div class="card-content">
+
+                <h3>Chicken Wings</h3>
+
+                <p>
+                    Delicious chicken wings ideal for frying and grilling.
+                </p>
+
+                <div class="price">₦6,500</div>
+
+                <button class="order-btn"
+                onclick="orderNow('Chicken Wings')">
+                    Order On WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 5 -->
+
+        <div class="card fade-up">
+
+            <img src="IMG_3804.JPG">
+
+            <div class="card-content">
+
+                <h3>Ice Block</h3>
+
+                <p>
+                    Crystal clear ice blocks available for parties and events.
+                </p>
+
+                <div class="price">₦1,500</div>
+
+                <button class="order-btn"
+                onclick="orderNow('Ice Block')">
+                    Order On WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 6 -->
+
+        <div class="card fade-up">
+
+            <img src="IMG_3800 - Copy.JPG">
+
+            <div class="card-content">
+
+                <h3>Orobo Laps</h3>
+
+                <p>
+                    Premium frozen orobo laps carefully preserved for freshness.
+                </p>
+
+                <div class="price">₦5,600</div>
+
+                <button class="order-btn"
+                onclick="orderNow('Orobo Laos')">
+                    Order On WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features" id="features">
+
+    <div class="section-title fade-up">
+        <h2>Why Choose Us</h2>
+        <p>We deliver freshness, quality and fast service</p>
+    </div>
+
+    <div class="feature-wrapper">
+
+        <div class="feature-box fade-up">
+            <h3>Fast Delivery</h3>
+            <p>
+                Reliable and fast delivery service to your location.
+            </p>
+        </div>
+
+        <div class="feature-box fade-up">
+            <h3>Fresh Products</h3>
+            <p>
+                All products are properly preserved and hygienically packed.
+            </p>
+        </div>
+
+        <div class="feature-box fade-up">
+            <h3>Affordable Prices</h3>
+            <p>
+                Best market prices for wholesale and retail buyers.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <h2 class="fade-up">
+        Contact Us Today
+    </h2>
+
+    <p class="fade-up">
+        Ready to place your order? Chat with us directly on WhatsApp now.
+    </p>
+
+    <button class="hero-btn fade-up"
+    onclick="contactUs()">
+        Contact On WhatsApp
+    </button>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    © 2026 Christoes Global.Ltd | WhatsApp: 09166376634
+
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
